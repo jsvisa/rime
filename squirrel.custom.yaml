@@ -1,0 +1,18 @@
+# Squirrel custom settings
+# encoding: utf-8
+#
+patch:
+  app_options:
+    com.apple.Spotlight:
+      ascii_mode: true
+    com.alfredapp.Alfred:
+      ascii_mode: true
+    com.runningwithcrayons.Alfred-2:
+      ascii_mode: true
+    com.apple.Terminal:
+      ascii_mode: true
+      no_inline: true
+    com.googlecode.iterm2:
+      ascii_mode: true
+    com.apple.dt.Xcode:
+     ascii_mode: true
