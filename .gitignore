@@ -2,4 +2,4 @@
 *.userdb/
 build/
 trash/
-!*.yaml
+user.yaml
