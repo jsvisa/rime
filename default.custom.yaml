@@ -1,7 +1,12 @@
-# Rime custom settings
-# encoding: utf-8
-
 patch:
+  menu/page_size: 6
   schema_list:
     - schema: wubi86
     - schema: emoji
+  key_binder/bindings:
+    - when: paging
+      accept: bracketleft
+      send: Page_Up
+    - when: has_menu
+      accept: bracketright
+      send: Page_Down
