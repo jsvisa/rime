@@ -8,12 +8,39 @@ patch:
     corner_radius: 10                  # 窗口圆角半径
     border_height: 0                   # 窗口边界高度，大于圆角半径才有效果
     border_width: 0                    # 窗口边界宽度，大于圆角半径才有效果
-    line_spacing: 1                    # 候选词的行间距
+    line_spacing: 5                    # 候选词的行间距
+    spacing: 10
+    font_face: "Lucida Grande"
+    color_scheme: native
+  app_options:
+    # [Right click] App -> Show Package Contents
+    # -> Contents -> Info.plist -> BundleIdentifier
+    com.apple.dt.Xcode:
+      ascii_mode: true
+    com.apple.Spotlight:
+      ascii_mode: true
+    com.apple.Terminal:
+      ascii_mode: true
+      no_inline: true
+    com.googlecode.iterm2:
+      ascii_mode: true
+    com.alfredapp.Alfred:
+      ascii_mode: true
+    com.runningwithcrayons.Alfred-3:
+      ascii_mode: true
+    com.runningwithcrayons.Alfred-2:
+      ascii_mode: true
+    org.vim.MacVim:
+      ascii_mode: true
+      no_inline: true
+    com.barebones.textwrangler:
+      ascii_mode: true
+    com.macromates.TextMate.preview:
+      ascii_mode: true
+    com.sublimetext.2:
+      ascii_mode: true
+    org.gnu.Aquamacs:
+      ascii_mode: true
+    org.gnu.Emacs:
+      ascii_mode: true
 
-    # font_face: "Lucida Grande"
-    # color_scheme: native
-    # border_height: 0
-    # border_width: 0
-    # corner_radius: 10
-    # line_spacing: 5
-    # spacing: 10

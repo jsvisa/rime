@@ -10,3 +10,4 @@ patch:
     - when: has_menu
       accept: bracketright
       send: Page_Down
+      
